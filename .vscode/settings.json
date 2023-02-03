@@ -1,0 +1,7 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFoldingRangeProvider": "vscode.css-language-features",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}
