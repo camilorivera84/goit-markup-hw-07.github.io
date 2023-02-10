@@ -9,16 +9,17 @@
   cursor: pointer;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-.logo__footer {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: var(--brand-color);
-  text-decoration: none;
-  cursor: pointer;
-  margin-bottom: 9px;
-  display: block;
+
+  &__footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--brand-color);
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 9px;
+    display: block;
+  }
 }

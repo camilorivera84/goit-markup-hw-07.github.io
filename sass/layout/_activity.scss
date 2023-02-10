@@ -22,16 +22,17 @@
   display: flex;
   justify-content: center;
   margin-bottom: 0;
-}
-.work__container--text {
-  margin-bottom: 0;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
+
+  &--text {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+  }
 }
 
 .work__title {
@@ -50,7 +51,8 @@
   gap: 30px;
   padding-top: 0;
   padding-bottom: 0;
-}
-.work__photos--images {
-  flex-basis: calc((100% - 60px) / 3);
+
+  &--images {
+    flex-basis: calc((100% - 60px) / 3);
+  }
 }

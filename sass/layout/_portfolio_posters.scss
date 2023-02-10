@@ -19,41 +19,43 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-}
 
-.portfolio__poster--feature {
-  padding-bottom: 20px;
-  margin-top: 0;
-  margin-top: 0;
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-  width: 370px;
-}
+  &--feature {
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 370px;
+  }
 
-.portfolio__poster--title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
-  text-transform: capitalize;
-  margin-bottom: 4px;
-}
-.portfolio__poster--group {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-  text-transform: capitalize;
-  margin-bottom: 0px;
-}
-.portfolio__poster--mask {
-  position: relative;
-  overflow: hidden;
+  &--title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+    text-transform: capitalize;
+    margin-bottom: 4px;
+  }
+
+  &--group {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    text-transform: capitalize;
+    margin-bottom: 0px;
+  }
+
+  &--mask {
+    position: relative;
+    overflow: hidden;
+  }
 }
 
 .portfolio__mask--text {
